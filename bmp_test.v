@@ -3,7 +3,7 @@
 `define SOURCE_FILE       "./test.bmp"
 `define RESULT_FILE       "./result.bmp"
 
-module testbench;
+module bmp_test;
   parameter STEP = 100;
   integer fp_src, fp_dst;	//  file pointer
   integer i;
